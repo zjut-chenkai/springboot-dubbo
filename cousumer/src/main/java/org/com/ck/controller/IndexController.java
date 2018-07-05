@@ -16,6 +16,7 @@ public class IndexController {
 	@RequestMapping("/index")
 	@ResponseBody
 	public String index() {
+		System.out.println("controller");
 		return testService.testSay();
 	}
 }
